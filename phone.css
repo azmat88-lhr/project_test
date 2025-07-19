@@ -1,0 +1,79 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+#logo{
+    align-items: center;
+    justify-content: center;
+}
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+#services .box:hover{
+    transform: scale(0.8);
+}
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+#contact-box form{
+    width:80%;
+}
+
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+/* Default for larger screens (logo left) */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align logo to the left */
+  width: 100%;
+  padding: 10px 20px;
+}
+
+/* Logo itself */
+.logo {
+  height: 40px;
+}
+
+/* For smaller screens (like mobile), center the logo */
+@media (max-width: 768px) {
+  .logo-container {
+    justify-content: center; /* Center logo horizontally */
+  }
+}
