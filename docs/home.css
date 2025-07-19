@@ -64,7 +64,8 @@ body{
 }
 #home::before{
     content: "";
-    background: url('bg.jpg') no-repeat center center/cover;
+    background: url('bg.jpg') center center no-repeat;
+    background-size: cover;
     position:absolute;
     height: 100%;
     width: 100%;
@@ -231,7 +232,8 @@ h2{
 
 #client-section::before{
     content: "";
-    background: url('burger2.jpg') no-repeat center center/cover;
+    background: url('burger2.jpg') no-repeat center center;
+    background-size: cover;
     position: absolute;
     width: 100%;
     height: 45%;
@@ -254,7 +256,8 @@ h2{
 }
 #contact::before{
     content: "";
-    background: url('feedback.jpg') no-repeat center center/cover;
+    background: url('feedback.jpg') no-repeat center center;
+    background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
