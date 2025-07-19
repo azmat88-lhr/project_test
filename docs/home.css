@@ -64,7 +64,7 @@ body{
 }
 #home::before{
     content: "";
-    background:url('../pictures/bg.jpg') no-repeat center center/cover;
+    background:url('bg.jpg') no-repeat center center/cover;
     position:absolute;
     height: 100%;
     width: 100%;
@@ -231,7 +231,7 @@ h2{
 
 #client-section::before{
     content: "";
-    background: url('/pictures/burger-74748_1280.jpg') no-repeat center center/cover;
+    background: url('burger2.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 45%;
@@ -254,7 +254,7 @@ h2{
 }
 #contact::before{
     content: "";
-    background: url('../pictures/feedback-1793116_1280.jpg') no-repeat center center/cover;
+    background: url('feedback.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 100%;
